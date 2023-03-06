@@ -1,0 +1,8 @@
+#DirectoryIndex index.php
+
+ RewriteEngine On
+ RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%
+    RewriteCond %{REQUEST_URI} ^(.*)$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule .* /index.php?url=%1 [QSA]

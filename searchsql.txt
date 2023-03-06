@@ -1,0 +1,1 @@
+SELECT * from Products, Specs where Products.productId = Specs.productId and CONCAT(Products.productName, ' ', Products.manufacturer, ' ', Specs.cpuType, ' ', Specs.cpuBrand, ' ', Specs.ram, ' ', Specs.storage, ' ', Specs.display, ' ', Specs.graphics, ' ', Specs.cores, ' ', Specs.os) LIKE '%8gb%'

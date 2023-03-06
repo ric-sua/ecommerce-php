@@ -1,0 +1,67 @@
+html{
+    background-color: #ACCBE1;
+}
+
+body{
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
+.cont {
+		margin-top: 20px;
+}
+
+.ty{
+	background: rgb(172,203,225);
+background: -moz-linear-gradient(0deg, rgba(172,203,225,1) 0%, rgba(206,229,242,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(172,203,225,1) 0%, rgba(206,229,242,1) 100%);
+background: linear-gradient(0deg, rgba(172,203,225,1) 0%, rgba(206,229,242,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#accbe1",endColorstr="#cee5f2",GradientType=1);
+}
+
+.slide{
+    margin-top: -20px;
+}
+
+.spc{
+    margin-top: 100px;
+}
+
+.custom{
+    background-color: #536B78; 
+    color: white;
+}
+
+.custom:hover{
+    background-color: #536B78; 
+    color: white;
+}
+.custom:visited{
+    background-color: #536B78; 
+    color: white;
+}
+.custom:active{
+    background-color: #536B78; 
+    color: white;
+}
+.custom:focus{
+    background-color: #536B78; 
+    color: white;
+}
+
+.amount{
+    position: relative;
+    border: 2px solid #536B78;
+    background-color: #536B78;
+    margin-top: -14px;
+    margin-left: -12px;
+    color: white;
+    font-size: 12px;
+    line-height: 12px;
+    padding-left: 3px;
+    padding-right:3px;
+    border-collapse: collapse;
+    border-radius: 100%;
+  }
+
