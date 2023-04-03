@@ -1,8 +1,8 @@
 <?php 
-    $servername = 'sql102.epizy.com';
-    $databaseName = 'epiz_26028197_rusty_ecom';
-    $username = 'epiz_26028197';
-    $password = 'B2JS2sFvjZIouV';
+    $servername = 'SERVER_NAME';
+    $databaseName = 'DATABASE_NAME';
+    $username = 'USERNAME';
+    $password = 'PASSWORD';
 
     try {
         $db = new PDO("mysql:host=$servername;dbname=$databaseName", $username, $password);
